@@ -1,0 +1,44 @@
+﻿<Window x:Class="Sizzer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Sizzer"
+        mc:Ignorable="d"
+        Title="Sizzer" Height="450" Width="320"
+        ContentRendered="Window_ContentRendered"
+        ResizeMode="NoResize">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="100"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Background="#4A5664">
+            <TextBlock Foreground="#636D7A"
+                       FontSize="30" VerticalAlignment="Center"
+                       HorizontalAlignment="Right" Margin="10 0"
+                       Name="TxtRisk" Cursor="Hand" ToolTip="Risk per trade"
+                       PreviewMouseLeftButtonUp="TxtRisk_PreviewMouseLeftButtonUp"/>
+        </Grid>
+        <Grid Background="#4A5664" Grid.Row="1">
+            <TextBox Foreground="#FFE5E5E5" FontSize="70" 
+                     Background="Transparent" HorizontalAlignment="Right"
+                     VerticalAlignment="Center" Margin="10 0"
+                     BorderBrush="Transparent" BorderThickness="0" 
+                     Name="TxtSL" PreviewKeyDown="TxtSL_PreviewKeyDown"                     
+                     MaxLength="4"/>
+
+        </Grid>
+        <StackPanel Background="#FFE5E5E5" Grid.Row="2">
+            <TextBlock VerticalAlignment="Top" 
+                       HorizontalAlignment="Center" Margin="10 0"
+                       FontSize="180" Name="TxtSize"/>
+            
+            <TextBlock Text="SIZE" VerticalAlignment="Center" 
+                       HorizontalAlignment="Center" FontSize="14"
+                       Foreground="#FF969696"/>
+        </StackPanel>        
+
+    </Grid>
+</Window>
