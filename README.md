@@ -11,4 +11,4 @@ missed and a simple task like opening a calculator then enter the risk amount an
 can be a wholesome task, that's where 'sizzer' comes handy you just enter the stoploss amount and hit enter, Voilà!
 and you can focus on taking and managing the trade.
 
-![](screen_sizzer.png)
+![](Sizzer/screen_sizzer.png)
