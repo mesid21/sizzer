@@ -114,5 +114,8 @@
   <ItemGroup>
     <Resource Include="icons8_pills.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="screen_sizzer.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
