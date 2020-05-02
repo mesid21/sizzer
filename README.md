@@ -9,6 +9,7 @@ not only that you can also do it in your head, so waht's the purpose ?, you ask.
 When taking a trade (talking about daytrading), sometime you have to fast to enter or the opportunity can be 
 missed and a simple task like opening a calculator then enter the risk amount and divide  it with the stoploss 
 can be a wholesome task, that's where 'sizzer' comes handy you just enter the stoploss amount and hit enter, Voilà!
-and you can focus on taking and managing the trade.
+and you can focus on taking and managing the trade. Basically its for my own convenient, because I'm mathematically  
+challenged. And I'll be more than happy if someone uses it (which proves you are also...)
 
 ![](Sizzer/screen_sizzer.png)
